@@ -1,6 +1,8 @@
 # cs4540Group4
 Accessibility Extension for Mozilla Firefox
 
+
+
     Our extension will be easy to use and contain a variety of accessibility functions that will make web browsing more accessible. This will be done in phases and will allow us to implement multiple features through the remainder of the course.
 
 We will begin by focusing on filters for various degrees and types of color blindness. This extension will allow users to see web pages with the contrast intended by the original creator. By making this filter run with a few clicks, we are enabling color blind users to be able to toggle this on when browsing, but also allows for it to be toggled off if another user is on the browser. We will be following the Web Design Guidelines For Color Blind Audience published by DesignMantic for references of how we can best format the web page for color blind users. 
