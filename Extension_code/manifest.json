@@ -1,0 +1,28 @@
+{
+    "name": "Seeing is Believing", 
+    "version": "0.1.0", 
+    "manifest_version": 2, 
+    "icons": {
+        "48": "logo.png", 
+        "96": "96logo.png"
+    }, 
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"], 
+            "js": [
+                "seeing_believing.js"
+            ]
+        }
+    ], 
+    "background": {
+        "scripts": ["background.js"]
+    }, 
+    "browser_action": {
+        "default_title": "Seeing is Believing"
+    }, 
+    "permissions": [
+        "bookmarks", 
+        "contentSettings", 
+        "theme"
+    ]
+}
