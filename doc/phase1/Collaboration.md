@@ -4,6 +4,7 @@ Team Members:
     James Yokley
     Alexander(AJ) Voisan
     Pokuong(Chris) Lao
+    Hein Htet
  
 Goal: Provide insight into your collaborative work as a team
  
@@ -14,7 +15,8 @@ James Yokley has experience building projects and web applications in JavaScript
 Pokuong(Chris) Lau has experience with dynamic web development using Java Servlets and JSP, but limited experience with JavaScript. Pokuong currently has a time schedule with few restraints, allowing ample time to devote to our project. He is a team player that works well under pressure and is hoping to use this opportunity to improve his skills with JavaScript and web-based development.
  
 Alexander(AJ) Voisan also has experience with dynamic web development using Java Servlets and JSP, but has only recently begun to work with JavaScript. Some of his strengths are working with a team, organizing the team goals and creating strategies to achieve them. Alexander is very scrupulous and has strong analytical skills that are useful in debugging various projects. He plans to use this project to advance his front-end development skills and effective collaboration techniques.
- 
+
+Hein Htet has some experience with Python, Javascript and HTML, but needed some guidance to complete the work. I mostly have experience on the frontend rather than the backend. I also know how to do video editing and photoshop.
  
 The initial idea behind our web extension was thrown around in the text chat of our group's Discord server. After agreeing to the idea of a web extension that provided visual alteration for assistance with color-blindness and dyslexia, we planned a meeting to flesh out the details. Our brainstorming meeting was conducted online via Discord on the evening of September 26. All three group members were in attendance.
  
