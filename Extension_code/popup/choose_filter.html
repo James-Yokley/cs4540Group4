@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<!-- This HTML Doc controls the style and outline of the popup box for the extension
+     From here, we are able to choose which filter we have active, and reset the filters if necessary-->
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="choose_filter.css"/>
+    </head>
+
+    <body>
+        <div id="popup-content">
+            <div class="button filter">Protanopia</div>
+            <div class="button filter">Deuteranopia</div>
+            <div class="button filter">Dyslexia</div>
+            <div class="button reset">Reset</div>
+        </div>
+        <div id=""error-content" class="hidden">
+            <p>Can't filter this webpage.</p>
+            <p>Try a different page</p>
+        </div>
+        <script src="choose_filter.js"></script>
+    </body>
+</html>
