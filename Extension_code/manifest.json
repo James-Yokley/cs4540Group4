@@ -6,7 +6,7 @@
     
     "icons": {
         "48": "42516.jpg", 
-        "96": "96logo.png"
+        "96": "logo.png"
     }, 
     "background": {
         "scripts": ["background.js"]
@@ -17,6 +17,9 @@
         "default_popup" : "popup/choose_filter.html"
     }, 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "webRequest",
+        "tabs",
+        "<all_urls>"
     ]
 }

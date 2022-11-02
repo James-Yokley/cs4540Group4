@@ -1,4 +1,4 @@
-
+(()=>{
 
 if (window.hasRun){
     return; 
@@ -6,10 +6,19 @@ if (window.hasRun){
 
 window.hasRun = true; 
 
-function insertFilter(filterURL){
+function insertFilter(filterURL,deficiency){
     removeExistingFilters(); 
 
+
 }
+
+function removeExistingFilters() {
+    const existFilters = document.querySelectorAll(".seeing-image");
+    for (const filter of existFilters) {
+      filter.remove();
+    }
+  }
+
 document.onreadystatechange = function () {
     if (document.readyState == "interactive") {
         injectSVGFromFile(getScriptPath()+"rgblind.svg");
@@ -52,3 +61,14 @@ var getScriptPath = function(){
 	var path= scripts[scripts.length-1].src.split('?')[0];
 	return path.split('/').slice(0, -1).join('/')+'/';
 }
+
+browser.runtime.onMessage.addListener((message) => {
+	if(message.command === "filter"){
+		insertFilter(message.filterURL,message.deficiency);
+		}else if (message.command === "reset"){
+			removeExistingFilters();
+		}
+	
+})
+
+})();
