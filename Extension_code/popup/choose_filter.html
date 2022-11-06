@@ -10,15 +10,14 @@
 
     <body>
         <div id="popup-content">
-            <div class="button filter">Protanopia</div>
-            <div class="button filter">Deuteranopia</div>
-            <div class="button filter">Dyslexia</div>
-            <div class="button reset">Reset</div>
+            <button name="filterButton" value="protanopia" onclick="onFilterChange()" >Protanopia</button>
+            <button name="filterButton" value="deuteranopia" onclick="onFilterChange()">Deuteranopia</button>
+            <button class="button_filter">Dyslexia</button>
+            <button name="filterButton" value="reset" onclick="alert">Reset</button>
         </div>
         <div id=""error-content" class="hidden">
             <p>Can't filter this webpage.</p>
             <p>Try a different page</p>
         </div>
-        <script src="choose_filter.js"></script>
     </body>
 </html>
