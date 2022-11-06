@@ -6,7 +6,7 @@ html, body{
     display:none; 
 }
 
-.button {
+.filterButton {
     margin: 3% auto; 
     padding: 4px; 
     text-align: center;
@@ -15,20 +15,20 @@ html, body{
     cursor: pointer;
 }
 
-.filter:hover{
+.filterButton:hover{
     background-color: grey; 
 }
 
-.filter{
+.filterButton{
     background-color: black;
 }
 
 .reset {
-    background-color: black;
+    background-color: red;
 }
 
 .reset:hover{
-    background-color: grey;
+    background-color: pink;
 }
 
 

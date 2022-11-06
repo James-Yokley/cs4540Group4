@@ -5,21 +5,30 @@
     "description" : "Accessbility settings for Firefox, including color blind filters and format changes for those with dyslexia",
     
     "icons": {
+        "16": "42516.jpg",
         "48": "42516.jpg", 
-        "96": "logo.png"
+        "96": "96logo.png"
     }, 
-    "background": {
-        "scripts": ["background.js"]
-    }, 
+    "content_scripts": [
+        {
+
+        "matches":[
+            "https://*/*", 
+            "http://*/*", 
+            "<all_urls>"
+        ], 
+        "js": ["rgblind/rgblind.js", "seeing_believing.js"], 
+        "run_at": "document_end", 
+        "all_frames": true
+        }
+    ], 
     "browser_action": {
-        "default_icon":"42516.png",
+        "default_icon":"42516.jpg",
         "default_title": "Seeing is Believing", 
         "default_popup" : "popup/choose_filter.html"
     }, 
     "permissions": [
-        "activeTab",
-        "webRequest",
-        "tabs",
-        "<all_urls>"
-    ]
+        "https://ajax.googleapis.com/"
+    ] 
+    
 }
