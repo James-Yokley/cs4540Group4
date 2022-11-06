@@ -1,0 +1,22 @@
+Meeting on: 11/1/22 6:30pm
+
+-James Yokley, Alexander Voisan, Pokuong Lao, Hein Htet
+-Location: Online Discord
+
+Talked about:
+Open source colorblind filter RGBlind https://github.com/interaktivarum/rgblind
+
+
+Use Daltonize on images
+
+Focus on filtering images for types of colorblindness
+
+James has a made a working UI menu for coloblind options but no current functionality
+
+Wait on presentation preparation until demo version of extension is finished
+
+Action Items:
+
+Install template and work on implementing the colorblind filter functionality for images by Friday (Everyone)
+
+Next meeting: Friday 11/11/22 6:45pm
