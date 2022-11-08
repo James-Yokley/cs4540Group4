@@ -9,11 +9,39 @@
     </head>
 
     <body>
+        <!-- <table class="buttons">
+            <tr>
+                <td>
+                    <tr>
+                        <button type="button" name="filterButton" value="protanopia" onclick="onFilterChange()" >Protanopia</button>
+                    </tr>   
+                    <tr>
+                        <button type="button" name="filterButton" value="deuteranopia" onclick="onFilterChange()">Deuteranopia</button>
+                    </tr> 
+                </td>
+                <td>
+                    <tr>
+                        <button type="button" class="dyslexiaButton">Dyslexia</button>
+                    </tr>
+                </td>
+                <td>
+                    <button name="resetButton" value="reset" onclick="alert">Reset</button>
+                </td>
+           </table> -->
         <div id="popup-content">
-            <button name="filterButton" value="protanopia" onclick="onFilterChange()" >Protanopia</button>
-            <button name="filterButton" value="deuteranopia" onclick="onFilterChange()">Deuteranopia</button>
-            <button class="button_filter">Dyslexia</button>
-            <button name="filterButton" value="reset" onclick="alert">Reset</button>
+            <p id="popup-content-heading">Select a filter:</p>
+            <div id="popup-protanopia">
+                <button name="filterButton" value="protanopia" onclick="onFilterChange()" >Protanopia</button>
+            </div>
+            <div id="popup-deuteranopia">
+                <button name="filterButton" value="deuteranopia" onclick="onFilterChange()">Deuteranopia</button>
+            </div>
+            <div id="popup-dyslexia">
+                <button class="dyslexiaButton">Dyslexia</button>
+            </div>
+            <div id="popup-reset">
+                <button name="resetButton" value="reset" onclick="alert">Reset</button>
+            </div>
         </div>
         <div id=""error-content" class="hidden">
             <p>Can't filter this webpage.</p>
