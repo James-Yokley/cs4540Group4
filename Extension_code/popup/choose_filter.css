@@ -1,34 +1,72 @@
-html, body{
-    width:250px; 
+body{
+    width:180px; 
+    background-image: linear-gradient(to bottom right, rgb(45, 77, 77), rgb(108, 105, 105)); 
+    font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+}
+
+#popup-content-heading {
+    margin-top: 0em;
+    border-top:0em;
+    padding-top: 0em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-size: 1.7em;
+    font-weight: normal;
 }
 
 .hidden {
     display:none; 
 }
 
-.filterButton {
+button[name="filterButton"] {
     margin: 3% auto; 
     padding: 4px; 
+    padding-top: 0em;
+    margin-top: 0em;
+    border-radius: 5px;
+    border: 0px;
     text-align: center;
-    color:white; 
-    font-size: 1.5em;
+    color:darkslategray; 
+    background-color: black;
+    font-size: 1.3em;
     cursor: pointer;
 }
 
-.filterButton:hover{
-    background-color: grey; 
+button[name="filterButton"]:hover{
+    background-color: rgb(63, 62, 62); 
 }
 
-.filterButton{
+.dyslexiaButton {
+    margin: 3% auto; 
+    margin-top: 0em;
+    padding: 4px; 
+    padding-top: 0em;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    color:darkslategray; 
     background-color: black;
+    font-size: 1.3em;
+    cursor: pointer;
 }
 
-.reset {
-    background-color: red;
+.dyslexiaButton:hover {
+    background-color: rgb(63, 62, 62); 
 }
 
-.reset:hover{
-    background-color: pink;
+button[value="reset"] {
+    margin: 3% auto; 
+    padding: 4px; 
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    color:black; 
+    background-color: darkslategray;
+    font-size: 1.1em;
+    cursor: pointer;
 }
 
+button[value="reset"]:hover{
+    background-color: lightcoral;
+}
 
