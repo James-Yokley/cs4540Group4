@@ -1,15 +1,16 @@
-
+var b = browser;
 
 document.addEventListener('DOMContentLoaded', function() {
 
 	var setBodyClass = function(className) {
+		console.log(`Inside body class: ${className}`); 
 	    b.tabs.query({active: true, currentWindow: true}, function(tabs){
 			b.tabs.sendMessage(tabs[0].id, {action: "bodyClass", class: className});
 		});
 	}
 	
 	var onFilterChange = function(){
-		var filter = document.querySelector('input[name = "filterButton"]').value;
+		var filter = document.querySelector('button[name="filterButton"]:hover').value;
         console.log(`Inside onfilterchange filter: ${filter}`); 
 		setBodyClass(filter);
 	}
