@@ -13,12 +13,13 @@
         {
 
         "matches":[
-            "https://*/*", 
-            "http://*/*", 
+            "https://*/", 
+            "http://*/", 
             "<all_urls>"
         ], 
-        "js": ["rgblind/rgblind.js", "seeing_believing.js"], 
-        "run_at": "document_start", 
+        "css" : ["rgblind/rgblind-inject.css"],
+        "js": ["rgblind/rgblind.js", "content.js"], 
+        "run_at": "document_end", 
         "all_frames": true
         }
     ], 

@@ -1,6 +1,6 @@
 body{
     width:180px; 
-    background-image: linear-gradient(to bottom right, rgb(45, 77, 77), rgb(108, 105, 105)); 
+    background: white; 
     font-family: "Avenir Next", Calibri, Verdana, sans-serif;
 }
 
@@ -26,14 +26,14 @@ button[name="filterButton"] {
     border-radius: 5px;
     border: 0px;
     text-align: center;
-    color:darkslategray; 
+    color:rgb(255, 255, 255); 
     background-color: black;
     font-size: 1.3em;
     cursor: pointer;
 }
 
 button[name="filterButton"]:hover{
-    background-color: rgb(63, 62, 62); 
+    background-color: rgb(105, 105, 105); 
 }
 
 .dyslexiaButton {
@@ -44,7 +44,7 @@ button[name="filterButton"]:hover{
     border-radius: 5px;
     border: 0px;
     text-align: center;
-    color:darkslategray; 
+    color:rgb(255, 255, 255); 
     background-color: black;
     font-size: 1.3em;
     cursor: pointer;
@@ -54,19 +54,19 @@ button[name="filterButton"]:hover{
     background-color: rgb(63, 62, 62); 
 }
 
-button[value="reset"] {
+button[value="normal"] {
     margin: 3% auto; 
     padding: 4px; 
     border-radius: 5px;
     border: 0px;
     text-align: center;
-    color:black; 
-    background-color: darkslategray;
+    color:rgb(255, 255, 255); 
+    background-color: rgb(75, 54, 192);
     font-size: 1.1em;
     cursor: pointer;
 }
 
-button[value="reset"]:hover{
+button[value="normal"]:hover{
     background-color: lightcoral;
 }
 
