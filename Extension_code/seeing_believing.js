@@ -1,17 +1,13 @@
-var b = null;
-if(typeof browser != 'undefined'){
-	b = browser;
-}
-else{
-	b = chrome;
-}
+var b = browser; 
 
 //Change class
 b.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+	console.log(`message.action : ${message.action}`); 
 	if(message.action == "bodyClass") {
 		document.body.classList.remove("protanopia");
 		document.body.classList.remove("deuteranopia");
 		if(message.class != ""){					
+			console.log(`message.class: ${message.class}`); 
 			document.body.classList.add(message.class);
 		}
 	}
