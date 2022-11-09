@@ -1,0 +1,68 @@
+<!--src: https://codepen.io/skingrapher/pen/VwyarrG -->
+
+    <!-- 
+            DALTONIZE.SVG
+            Copyright (C) 2021 skingrapher 
+
+            This program is free software: you can redistribute it and/or modify
+            it under the terms of the GNU General Public License as published by
+            the Free Software Foundation, either version 3 of the License, or
+            (at your option) any later version.
+
+            This program is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+            GNU General Public License for more details.
+
+            You should have received a copy of the GNU General Public License
+            along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+            source of matrices at https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html
+            -->
+
+
+    
+    <filter id="protanopia" color-interpolation-filters="linearRGB" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+      <desc>daltonize protanopia</desc>
+      <feColorMatrix values="
+ 0.152286 1.052583 -0.204868 0 0
+ 0.114503 0.786281 0.099216 0 0
+-0.003882 -0.048116 1.051998 0 0
+0 0 0 1 0" type="matrix" in="SourceGraphic" />
+      <feColorMatrix values="
+0 0.7 0.7 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0" type="matrix" in="SourceGraphic" />
+    </filter>
+    
+    
+    <filter id="deuteranopia" color-interpolation-filters="linearRGB" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+      <desc>daltonize deuteranopia</desc>
+      <feColorMatrix values="
+ 0.367322 0.860646 -0.227968 0 0
+0.280085 0.672501 0.047413 0 0
+-0.011820 0.042940 0.968881 0 0
+0 0 0 1 0" type="matrix" in="SourceGraphic" />
+      <feColorMatrix values="
+1 0 0 0 0
+0.7 0 0.7 0 0
+0 0 1 0 0
+0 0 0 1 0" type="matrix" in="SourceGraphic" />
+    </filter>
+    
+    
+    <filter id="tritanopia" color-interpolation-filters="linearRGB" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+      <desc>daltonize tritanopia</desc>
+            <feColorMatrix values="
+1 0 0 0 0
+0 1 0 0 0
+0.7 0.7 0 0 0
+0 0 0 1 0" type="matrix" in="SourceGraphic" />
+      <feColorMatrix values="
+1.255528 -0.076749 -0.178779 0 0
+-0.078411 0.930809 0.147602 0 0
+0.004733 0.691367 0.303900 0 0
+0 0 0 1 0" type="matrix" />
+
+    </filter>
