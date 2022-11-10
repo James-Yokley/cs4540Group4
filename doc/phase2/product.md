@@ -30,13 +30,16 @@ From that challenge, we learned that a varied test environment for the software 
 
 #### What worked well:
 
-Our team did a good job on continuously researching how we can implement filters for color-blindness.
+Our team did a good job on continuously researching how we can implement filters for color-blindness using previous research on color-blind simulation and daltonization. 
 
-We came together when we had problems
+One of the highlights of our team over this phase was our ability to verbalize our problems and communicate them through discord. This allowed us to have multiple eyes on an issue when one of us gets stuck. 
+
 
 #### what needs improvement:
 
-We could have used our time more efficiently by spreading out responsibilities over a longer time range.
+One of the ares we could improve in is using our time more efficiently by spreading out responsibilities over a longer time range.
+
+Another issue we encountered was meeting time conflicts. We all have busy schedules that vary quite a lot and had difficulty finding a time that worked for all of us. The issue seemed to stem from scheduling meetings too close to the meeting time, not allowing enough flexibility. Moving forward we will plan our meeting times at least a week in advance.
 
 #### Triage: What we will build for final demo:
 
