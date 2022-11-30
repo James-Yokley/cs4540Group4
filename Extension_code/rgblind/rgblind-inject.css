@@ -22,3 +22,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-webkit-filter: url('rgblind.svg#deuteranopia');
 	color-interpolation-filters:sRGB;	
 }
+
+.tritanopia{
+	filter: url('rgblind.svg#tritanopia');
+	-webkit-filter: url('rgblind.svg#tritanopia');
+	color-interpolation-filters:sRGB;	
+}
