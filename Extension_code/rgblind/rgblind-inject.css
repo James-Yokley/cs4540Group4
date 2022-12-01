@@ -22,3 +22,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-webkit-filter: url('rgblind.svg#deuteranopia');
 	color-interpolation-filters:sRGB;	
 }
+
+.protanopia_daltonize{
+	filter: url('rgblind.svg#protanopia_daltonize'); 
+	-webkit-filter: url('rgblind.svg#protanopia_daltonize');
+	color-interpolation-filters: sRGB;
+}
+
+.deuteranopia_daltonize{
+	filter: url('rgblind.svg#deuteranopia_daltonize'); 
+	-webkit-filter: url('rgblind.svg#deuteranopia_daltonize');
+	color-interpolation-filters: sRGB;
+}
