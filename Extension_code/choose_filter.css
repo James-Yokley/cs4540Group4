@@ -1,39 +1,60 @@
 body{
     width:180px; 
+    height:375px; 
     background: white; 
-    font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bolder;
 }
+
+.container {
+    height: 375px;
+    position: relative;
+    border: 3px solid black;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 
 #popup-content-heading {
     margin-top: 0em;
-    border-top:0em;
+    border-top: 0em;
     padding-top: 0em;
     margin-bottom: 0.5em;
-    text-align: left;
-    font-size: 1.7em;
-    font-weight: normal;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 .hidden {
     display:none; 
 }
 
+
 button[name="filterButton"] {
     margin: 3% auto; 
     padding: 4px; 
-    padding-top: 0em;
+    padding-top: .5em;
     margin-top: 0em;
     border-radius: 5px;
     border: 0px;
     text-align: center;
     color:rgb(255, 255, 255); 
     background-color: black;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-weight: bolder;
     cursor: pointer;
 }
 
 button[name="filterButton"]:hover{
-    background-color: rgb(105, 105, 105); 
+    background-color: white;
+    color: black;  
 }
 
 .dyslexiaButton {
@@ -46,12 +67,14 @@ button[name="filterButton"]:hover{
     text-align: center;
     color:rgb(255, 255, 255); 
     background-color: black;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-weight: bolder; 
     cursor: pointer;
 }
 
 .dyslexiaButton:hover {
-    background-color: rgb(63, 62, 62); 
+    background-color: white;
+    color: black;  
 }
 
 button[value="normal"] {
@@ -62,11 +85,14 @@ button[value="normal"] {
     text-align: center;
     color:rgb(255, 255, 255); 
     background-color: rgb(75, 54, 192);
-    font-size: 1.1em;
+    font-size: 1em;
     cursor: pointer;
 }
 
 button[value="normal"]:hover{
-    background-color: lightcoral;
+    background-color: white;
+    color: black; 
+    text-align: center;
 }
+
 

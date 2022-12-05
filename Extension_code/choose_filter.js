@@ -19,6 +19,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	for (i = 0; i < buttons.length; i++) {
 	    buttons[i].addEventListener("click", onFilterChange);
 	}
+	var helpRedirect = function(){
+		location.href = 'help.html'; 
+	}
+	
+	
+	var helpButton = document.getElementById("helpButton"); 
+	helpButton.addEventListener("click", helpRedirect); 
+	console.log("help button event listener"); 
+
+
+	
 
 });
 
