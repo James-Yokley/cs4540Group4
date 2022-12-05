@@ -3,46 +3,64 @@
 <!-- This HTML Doc controls the style and outline of the popup box for the extension
      From here, we are able to choose which filter we have active, and reset the filters if necessary-->
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="choose_filter.css"/>
-    </head>
 
-    <body>
-        <div id="popup-content">
-            <p id="popup-content-heading">Select a filter:</p>
-            <div id="popup-protanopia">
-                <button name="filterButton" value="protanopia">Protanopia</button>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="choose_filter.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="center">
+            <div id="popup-content">
+                <p id="popup-content-heading">Select a filter:</p>
             </div>
-            <div id="popup-deuteranopia">
-                <button name="filterButton" value="deuteranopia">Deuteranopia</button>
-            </div>
+
             <div id="popup-protanopia_daltonize">
                 <button name="filterButton" value="protanopia_daltonize">Protanopia Daltonize</button>
             </div>
+
             <div id="popup-deuteranopia_daltonize">
                 <button name="filterButton" value="deuteranopia_daltonize">Deuteranopia Daltonize</button>
             </div>
+
+            <div id="popup-protanopia">
+                <button name="filterButton" value="protanopia">Protanopia Emulation</button>
+            </div>
+
+            <div id="popup-deuteranopia">
+                <button name="filterButton" value="deuteranopia">Deuteranopia Emulation</button>
+            </div>
+
             <div id="popup-dyslexia">
-                <button class="dyslexiaButton">Dyslexia</button>
+                <button class="dyslexiaButton">Dyslexia Readability</button>
             </div>
-            <table><tr>
-            <td>
-            <div id="popup-reset">
-                <button name="filterButton" value="normal">Reset</button>
-            </div>
-            </td>
-            <td>
-                <div id="popup-Help">
-                    <button name="filterButton" value="normal">Help</button>
-                </div>
-            </td>
-        </tr></table>
+
+            <table>
+                <tr>
+                    <td>
+
+                        <div id="popup-reset">
+                            <button name="filterButton" value="normal">Reset</button>
+                        </div>
+
+                    </td>
+                    <td>
+                        <div id="popup-Help">
+                            <button id="helpButton" name="filterButton" value="normal">Help</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div id="error-content" class="hidden">
             <p>Can't filter this webpage.</p>
             <p>Try a different page</p>
         </div>
-        <script src="choose_filter.js" ></script>
-    </body>
+    </div>
+    </div>
+    <script src="choose_filter.js"></script>
+</body>
+
 </html>
