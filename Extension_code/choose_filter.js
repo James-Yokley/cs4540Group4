@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	var helpRedirect = function(){
 		location.href = 'help.html'; 
 	}
-	
-	
+
+
 	var helpButton = document.getElementById("helpButton"); 
 	helpButton.addEventListener("click", helpRedirect); 
-	console.log("help button event listener"); 
 
+	
 
 	document.getElementsByName("dyslexiaButton")[0].addEventListener("click", function(){
 		b.tabs.query({active: true, currentWindow: true}, function(tabs){
